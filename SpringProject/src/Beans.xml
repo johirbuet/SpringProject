@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+    >
+    <bean id="helloMessage" class="com.johir.HelloMessage">
+        <property name="message" value="Hello World"/>
+        
+    </bean>
+    <bean id="employee" class="com.johir.Employee">
+        <constructor-arg value="12" type="int"></constructor-arg>
+        <constructor-arg value="Johir"></constructor-arg>
+        <constructor-arg>
+            <ref bean="address" />
+        </constructor-arg>
+    </bean>
+    <bean id="address" class="com.johir.Address">
+        <constructor-arg value="Garua"></constructor-arg>
+        <constructor-arg value="Dhaka"></constructor-arg>
+        <constructor-arg value="Bangladesh"></constructor-arg>
+    </bean>
+    <bean id="question" class="com.johir.Question">
+        <constructor-arg value="1"></constructor-arg>
+        <constructor-arg value="What is Java?"></constructor-arg>
+        <constructor-arg>
+            <list>
+                <value>A Programming Language</value>
+                <value>A Platform</value>
+                <value>An Island of Indonesia</value>
+            </list>
+        </constructor-arg>
+    </bean>
+    
+</beans>
