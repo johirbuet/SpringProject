@@ -27,11 +27,15 @@
         <constructor-arg value="What is Java?"></constructor-arg>
         <constructor-arg>
             <list>
-                <value>A Programming Language</value>
-                <value>A Platform</value>
-                <value>An Island of Indonesia</value>
+               <ref bean="answer" />
             </list>
         </constructor-arg>
+    </bean>
+    <bean id="answer" class="com.johir.Answer">
+        <constructor-arg value="1"></constructor-arg>
+        <constructor-arg value="Java is a Programming Language"></constructor-arg>
+        <constructor-arg value="Johir"></constructor-arg>
+        
     </bean>
     
 </beans>

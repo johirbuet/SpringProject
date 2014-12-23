@@ -11,6 +11,6 @@ public class Employee {
 	}
 	
 	public void showMsg(){
-		System.out.println("ID="+id+" Name is "+name+" Addrss Is:"+ address.toString());
+		System.out.println("ID="+id+" Name is "+name+" Addrss Is:"+ address);
 	}
 }
