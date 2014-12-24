@@ -1,17 +1,19 @@
 package com.johir;
 
+import java.util.Date;
+
 public class Answer {
 	int id;
-	String name;
-	String by;
-	public Answer(int id,String name,String by) {
+	String answer;
+	Date postedDate;
+	public Answer(int id,String answer,Date postedDate) {
 		// TODO Auto-generated constructor stub
 		this.id=id;
-		this.name=name;
-		this.by=by;
+		this.answer=answer;
+		this.postedDate=postedDate;
 	}
 	public String toString(){
-		return id+" "+name+" "+by;
+		return "ID: "+id+" Answer: "+answer+"Posted On:  "+postedDate;
 	}
 
 }

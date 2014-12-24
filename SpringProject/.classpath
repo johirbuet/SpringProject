@@ -2,13 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="//iastate.edu/cyfiles/mislam/Desktop/org.springframework.core-sources-3.2.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="//iastate.edu/cyfiles/mislam/Desktop/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="//iastate.edu/cyfiles/mislam/Desktop/spring-beans-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="//iastate.edu/cyfiles/mislam/Desktop/spring-core-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="//iastate.edu/cyfiles/mislam/Desktop/org.springframework.context-3.1.0.M2.jar/org.springframework.context-3.1.0.M2.jar"/>
-	<classpathentry kind="lib" path="//iastate.edu/cyfiles/mislam/Desktop/org.springframework.context.support-3.1.0.M2.jar/org.springframework.context.support-3.1.0.M2.jar"/>
-	<classpathentry kind="lib" path="//iastate.edu/cyfiles/mislam/Desktop/com.springsource.org.antlr-sources-3.0.1.jar"/>
-	<classpathentry kind="lib" path="//iastate.edu/cyfiles/mislam/Desktop/spring-aspects-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/johirbuet/Downloads/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/johirbuet/Downloads/spring-beans-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/johirbuet/Downloads/spring-context-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/johirbuet/Downloads/spring-core-3.0.1.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
