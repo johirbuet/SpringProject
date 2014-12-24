@@ -26,9 +26,11 @@
         <constructor-arg value="1"></constructor-arg>
         <constructor-arg value="What is Java?"></constructor-arg>
         <constructor-arg>
-            <list>
-               <ref bean="answer" />
-            </list>
+		<map>
+			<entry key="Java is a Programming Language" value="Ajay Kumar"></entry>
+			<entry key="Java is a Platform" value="John Smith"></entry>
+			<entry key="Java is an Island" value="Raj Kumar"></entry>
+		</map> 
         </constructor-arg>
     </bean>
     <bean id="answer" class="com.johir.Answer">
